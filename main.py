@@ -16,7 +16,7 @@ def local_css(file_name):
         with open(file_name) as f:
             st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
             
-local_css(r"E:\webpage\style\style.css")
+local_css(r"style.css")
 
 
 
@@ -53,11 +53,11 @@ try:
                 Authenticator.logout('Log Out', 'sidebar')
                                     
                 # ---- LOAD ASSETS ----
-                img_contact_form = Image.open(r"E:\Streamlit-Authentication-main\images\Golf Game.png")
-                img_snake_form = Image.open(r"E:\Streamlit-Authentication-main\images\Game.png")
-                img_chess_form = Image.open(r"E:\Streamlit-Authentication-main\images\Chess.png")
-                img_snakegame_form = Image.open(r"E:\Streamlit-Authentication-main\images\Snake Game.png")
-                img_word_form= Image.open(r"E:\Streamlit-Authentication-main\images\Word Game.png")
+                img_contact_form = Image.open(r"Golf Game.png")
+                img_snake_form = Image.open(r"Game.png")
+                img_chess_form = Image.open(r"Chess.png")
+                img_snakegame_form = Image.open(r"Snake Game.png")
+                img_word_form= Image.open(r"Word Game.png")
 
                 # --- Game Links ---
                 chess_link= "https://pmp-p.github.io/pygame-pychess-wasm/index.html"
@@ -94,7 +94,7 @@ try:
                     
                         """)
                 with right_column:
-                    with open(r'E:\Streamlit-Authentication-main\gaming.json') as source:
+                    with open(r'gaming.json') as source:
                         gaming=json.load(source)
                     st_lottie(gaming, height=400)
                     
