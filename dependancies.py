@@ -9,7 +9,7 @@ import requests
 import streamlit as st
 from PIL import Image
 import streamlit_authenticator as stauth
-from streamlit_lottie import st_lottie
+#from streamlit_lottie import st_lottie
 from deta import Deta
 
 DETA_KEY = 'd0a3uc7decm_FNYARfu7GSYPZwvFdKr1UAfe5W7j21vA'
