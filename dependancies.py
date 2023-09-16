@@ -85,8 +85,8 @@ def validate_username(username):
     :return True if username is valid else False:
     """
 
-    pattern = "[A-Za-z0-9]+[.-_])*[A-Za-z0-9]*$"
-  #  pattern = "^[a-zA-Z0-9]*$"
+  #  pattern = "[A-Za-z0-9]+[.-_])*[A-Za-z0-9]*$"
+    pattern = "^[a-zA-Z0-9]*$"
     if re.match(pattern, username):
         return True
     return False
@@ -133,7 +133,7 @@ def sign_up():
 
         btn1, bt2, btn3, btn4, btn5 = st.columns(5)
         with btn1:
-            st.form_submit_button('Sign Up')
+            st.form_submit_button("Sign Up")
 
 
 # sign_uo()
