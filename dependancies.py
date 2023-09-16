@@ -87,7 +87,7 @@ def validate_username(username):
 
   #  pattern = "[A-Za-z0-9]+[.-_])*[A-Za-z0-9]*$"
    # pattern = "^[a-zA-Z0-9]*$"
-    pattern = "^[A-Za-z][A-Za-z0-9_]{3,29}$"
+    pattern = "^[A-Za-z0-9]{3,29}$"
 
     if re.match(pattern, username):
         return True
