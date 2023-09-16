@@ -85,7 +85,8 @@ def validate_username(username):
     :return True if username is valid else False:
     """
 
-    pattern = "^[a-zA-Z0-9]*$"
+    pattern = "[A-Za-z0-9]+[.-_])*[A-Za-z0-9]*$"
+  #  pattern = "^[a-zA-Z0-9]*$"
     if re.match(pattern, username):
         return True
     return False
