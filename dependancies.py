@@ -12,11 +12,11 @@ import streamlit_authenticator as stauth
 from streamlit_lottie import st_lottie
 from deta import Deta
 
-DETA_KEY = 'd0a3uc7decm_FNYARfu7GSYPZwvFdKr1UAfe5W7j21vA'
+DETA_KEY = 'd0jg99hyhr9_gVefHE99TLh9o2Jgpp2kXT37WpqEsZ97'
 
 deta = Deta(DETA_KEY)
 
-db = deta.Base('Dashboard')
+db = deta.Base('Game')
 
 
 def insert_user(email, username, password):
