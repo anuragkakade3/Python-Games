@@ -98,7 +98,7 @@ def sign_up():
     with st.form(key='signup', clear_on_submit=True):
         st.subheader(':green[Sign Up]')
         email = st.text_input(':blue[Email]', placeholder='Enter Your Email')
-        username = st.text_input(':blue[Username]', placeholder='Enter Your Username (Lowercase Only)')
+        username = st.text_input(':blue[Username]', placeholder='Enter Your Username' , btn5 = '(Lowercase Only)')
         password1 = st.text_input(':blue[Password]', placeholder='Enter Your Password', type='password')
         password2 = st.text_input(':blue[Confirm Password]', placeholder='Confirm Your Password', type='password')
 
