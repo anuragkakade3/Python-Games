@@ -68,7 +68,7 @@ try:
 
                 # ---- HEADER SECTION ----
                 with st.container():
-                    st.subheader("Student from VPKBIET")
+                    st.subheader("Welcome to the Playground")
                     st.title("Hello!! Gamers :game_die:")
                     st.write(
                         "I'm a Gamer. Not because I don't have a life. But because I choose to have many."

@@ -132,10 +132,17 @@ def sign_up():
                     st.warning('Email Already exists!!')
             else:
                 st.warning('Invalid Email')
-
-        btn1, bt2, btn3, btn4, btn5 = st.columns(5)
+            
+            
+        btn1, bt2, btn3, bt4, bt5 = st.columns(5)
         with btn1:
             st.form_submit_button("Sign Up")
+        with bt5:
+            st.write(':red[For Guest User :]')
+            st.write(':green[Username :]','guestuser')
+            st.write(':green[Password :]','123456')
+            
+            
 
 
 # sign_uo()
