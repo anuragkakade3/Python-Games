@@ -62,9 +62,9 @@ try:
                 # --- Game Links ---
                 chess_link= "https://pmp-p.github.io/pygame-pychess-wasm/index.html"
                 Alien_Dimension_link= "https://pmp-p.github.io/pygame-alien-dimension-wasm/"
-                Golf_game_Download_link= "https://mega.nz/file/TtMX1RoA#0zM4OOvFqsZ_3qj_LZJj4cz0hm0a3yqsvbiYPN4XoJc"
-                snake_game_Download_link = "https://mega.nz/file/a5EzkagA#nE_o0ezwmewZNWB6Wj1rNOWeqgZeM07v8bArp1FlJzI"
-                word_game_Downlode_game_link = "https://mega.nz/file/Xg932biI#JW7Eza9JzOps7kj0u4CJ00mjmTUXI1GZs-HnLim8Vi0"
+                Golf_game_Download_link= "https://mega.nz/folder/rw8WQDAY#ia_GcCq5Cc7BSo1HL3HHgA"
+                snake_game_Download_link = "https://mega.nz/file/DlkiyBBR#4iAk9cm3e4HB2WLoBEgC4619FO6my4qHesse1txkRKc"
+                word_game_Downlode_game_link = "https://mega.nz/file/noF0RS7I#I6oAu7eJh7lPxZjfNvI5xkdLgPmDkqHzsMD85_EsQuk"
 
                 # ---- HEADER SECTION ----
                 with st.container():
